@@ -9,6 +9,7 @@ To do so, we had four different approaches:
 3- Emotion Recognition : to extracting which emotions can be recognized from the news
 4- Fact checking : to recognize whether the news are reliable or not
 
+
 Notes: Codes of each approach and the results are in related folders
 
 To accomplish all of mentioned approaches, we scraped news from different sources such as google news of USA and Netherlands, 
