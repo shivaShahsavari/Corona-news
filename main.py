@@ -1,7 +1,7 @@
 import preprocessing
 import simple_text_classification
 import FastText
-import polarity_analysis.polarity_analysis as polarity_analysis
+from polarity_analysis import polarity_analysis
 import pandas as pd
 import numpy as np
 ### READ ###
