@@ -1,6 +1,6 @@
 import preprocessing
 import simple_text_classification
-import FastText
+from topic_classification import FastText
 from polarity_analysis import polarity_analysis
 import pandas as pd
 import numpy as np
