@@ -52,7 +52,7 @@ for i in range(len(url_datf)):
         country.append(chunks2[1])
 
 news = pd.DataFrame({'news_title':headlines,'Lables':labels,'news_date':dates,'country':country,'fact_checking_source':factCheckedBy})
-news.to_csv('scrape_Poynter_merged3.csv')
+news.to_csv('scrape_Poynter_all.csv')
     
 
     
