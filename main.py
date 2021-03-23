@@ -44,7 +44,7 @@ dutch_news_topics['final_tag'] = np.where(dutch_news_topics['maximum']=='f_proba
 dutch_news_topics['final_tag'] = np.where(dutch_news_topics['maximum']=='f_probability_content',dutch_news_topics['f_label_content'], dutch_news_topics['final_tag'])
 
 dutch_news_topics_final = dutch_news_topics[['headlines', 'content', 'date', 'headlines_en', 'content_en','final_tag']]
-dutch_news_topics_final.to_csv("topic_classification_predictions.csv", index = False)
+dutch_news_topics_final.to_csv("topic_classification/topic_classification_predictions.csv", index = False)
 
 ### VISUALIZATIONS ### 
 # preprocessing for visualization of categories
