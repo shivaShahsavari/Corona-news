@@ -54,7 +54,7 @@ def train_data(number_of_dates_usa):
   date = start_date
   economy_usa = pd.DataFrame()
   for i in range(number_of_dates_usa):
-      file_path = 'Corona-ScrapedData/EcoUsaNews_'+ str(date) + '.csv'
+      file_path = 'direct_scraping/EcoUsaNews_'+ str(date) + '.csv'
       economy_usa_new = read_economy(file_path)
       economy_usa_new['date'] = date
       economy_usa = pd.concat([economy_usa, economy_usa_new])
@@ -63,7 +63,7 @@ def train_data(number_of_dates_usa):
   date = start_date
   healthcare_usa = pd.DataFrame()
   for i in range(number_of_dates_usa):
-      file_path = 'Corona-ScrapedData/HlthUsaNews_'+ str(date) + '.csv'
+      file_path = 'direct_scraping/HlthUsaNews_'+ str(date) + '.csv'
       healthcare_usa_new = read_healthcare(file_path)
       healthcare_usa_new['date'] = date
       healthcare_usa = pd.concat([healthcare_usa, healthcare_usa_new])
@@ -72,7 +72,7 @@ def train_data(number_of_dates_usa):
   date = start_date
   science_usa = pd.DataFrame()
   for i in range(number_of_dates_usa):
-      file_path = 'Corona-ScrapedData/SciUsaNews_'+ str(date) + '.csv'
+      file_path = 'direct_scraping/SciUsaNews_'+ str(date) + '.csv'
       science_usa_new = read_science(file_path)
       science_usa_new['date'] = date
       science_usa = pd.concat([science_usa, science_usa_new])
@@ -81,7 +81,7 @@ def train_data(number_of_dates_usa):
   date = start_date
   travel_usa = pd.DataFrame()
   for i in range(number_of_dates_usa):
-      file_path = 'Corona-ScrapedData/TrvUsaNews_'+ str(date) + '.csv'
+      file_path = 'direct_scraping/TrvUsaNews_'+ str(date) + '.csv'
       travel_usa_new = read_travel(file_path)
       travel_usa_new['date'] = date
       travel_usa = pd.concat([travel_usa, travel_usa_new])
@@ -142,12 +142,12 @@ def new_test_data(date):
       
       
     dutch_news = dutch_news.reset_index(drop=True)
-    file_path = 'Corona-ScrapedData/Dutch_news_translated_1'+ '.csv'
+    file_path = 'direct_scraping/Dutch_news_translated_1'+ '.csv'
     dutch_news.to_csv(file_path, index=False)
     return dutch_news
 
 def read_dutchnews_translated_data():
-    dutch_news_translated = pd.read_csv("Corona-ScrapedData/Dutch_news_translated_.csv")
+    dutch_news_translated = pd.read_csv("direct_scraping/Dutch_news_translated_.csv")
     return dutch_news_translated
 
 
