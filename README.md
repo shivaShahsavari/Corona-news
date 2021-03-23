@@ -1,2 +1,2 @@
 # Corona
-Analyzing News related to Corona
+Analyzing Dutch News related to Corona
