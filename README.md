@@ -15,3 +15,5 @@ Notes: Codes of each approach and the results are in related folders
 To accomplish all of mentioned approaches, we scraped news from different sources such as google news of USA and Netherlands, 
 RIVM, WHO, Dutch government and Poynter (an international platform including collection of False and misleading news).
 Our collected data are also inserted in corresponding folders.
+
+To look at our presentation in Prezi please refer to : https://prezi.com/view/0tAG4DxwT8aQCkYD3Rb7/
