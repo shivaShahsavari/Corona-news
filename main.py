@@ -116,4 +116,4 @@ plot(fig)
 
 
 
-news_final.to_csv("polarity_predictions.csv", index = False)
+news_final.to_csv("polarity_analysis/polarity_predictions.csv", index = False)
