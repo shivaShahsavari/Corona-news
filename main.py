@@ -4,6 +4,8 @@ from topic_classification import FastText
 from polarity_analysis import polarity_analysis
 import pandas as pd
 import numpy as np
+from EmotionRecognition import word2vec_LogisticRegression
+from fact_checking import reliable_classification
 ### READ ###
 # read the train data 
 usa = preprocessing.train_data(20)
@@ -113,7 +115,10 @@ fig.update_layout(
     ))
 plot(fig)
 
-
-
-
 news_final.to_csv("polarity_analysis/polarity_predictions.csv", index = False)
+
+#######Emotion Recognition
+Emo_rec=word2vec_LogisticRegression.main()
+
+######Fact checking
+reli_check=reliable_classification.main()
