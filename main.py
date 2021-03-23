@@ -7,7 +7,7 @@ import numpy as np
 ### READ ###
 # read the train data 
 usa = preprocessing.train_data(20)
-usa.to_csv("usa.csv", index=False)
+usa.to_csv("topic_classification/usa.csv", index=False)
 # read the training data 
 # from until 22 april - 2 may
 dutch_news = preprocessing.read_dutchnews_translated_data()
