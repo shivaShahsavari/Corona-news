@@ -1,5 +1,5 @@
 import simple_text_classification
-import preprocessing
+from .. import preprocessing
 import FastText
 import pandas as pd
 from sklearn.model_selection import train_test_split
