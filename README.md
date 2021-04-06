@@ -6,9 +6,9 @@ To do so, we had four different approaches:
 
 1- Polarity identification : to determine the news with Negative or Positive labels(kind of sentiment analysis)
 
-2- Topic Classification : to classify utch news in four categories of Healthcare, Economic, Travel and Science
+2- Topic Classification : to classify Dutch news in four categories of Healthcare, Economic, Travel and Science
 
-3- Emotion Recognition : to extracting which emotions can be recognized from the news
+3- Emotion Recognition : to extract which emotions can be recognized from the news
 
 4- Fact checking : to recognize whether the news are reliable or not
 
