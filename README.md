@@ -18,7 +18,7 @@ To do so, we had four different approaches:
 4- Fact checking : to recognize whether the news are reliable or not
 
 
-Notes: Codes of each approach and the results are in related folders
+Notes: Codes of each approach and the results are in related folders  
 Python libraries: **Pandas, Numpy, Sklearn, BS4, NLTK**  
 
 To accomplish all of mentioned approaches, we scraped news from different sources such as google news of USA and Netherlands, 
