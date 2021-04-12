@@ -4,7 +4,7 @@
 By the beginnig of Covid-19 infection cases in Netherlands, we came up with the idea of Analyzing Dutch News in this regard.
 To do so, we had four different approaches:
 
-1- Polarity identification : to determine the news with Negative or Positive labels(kind of sentiment analysis)
+1- Polarity identification : to determine the news with Negative or Positive labels
 
 2- Topic Classification : to classify Dutch news in four categories of Healthcare, Economic, Travel and Science
 
