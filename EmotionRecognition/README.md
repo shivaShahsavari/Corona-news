@@ -21,4 +21,6 @@ Cosindering the Emotion recognition approach in our project we had the following
     + We tried SVM, Naive Bayes as well, but Logistic Regression had more precision value.
 
 6- Then applying our model on Dutch News which we scraped from 22/04/2020 to 15/05/2020. 
-   The result of our emotion recognition is shown in "EmotionRecognitionResult.png" image.
+   The result of our emotion recognition is as below:  
+     
+   <img src="EmotionRecognitionResult.png" width=900 height=400>
